@@ -14,7 +14,10 @@
         <div class="bar2"></div>
         <div class="bar3"></div>
     </div>
+    <h3>Example Explained</h3>
+    <p>HTML & CSS: We use the same styles as before, only this time, we wrap a container element around each <div> element and we specify a class name for each.
 
+        The container element is used to show a pointer symbol when the user moves the mouse over the divs (bars). When it is clicked on, it will execute a JavaScript function that adds a new class name to it, which will change the styles of each horizontal bar: the first and the last bar is transformed and rotated to the letter "x". The bar in the middle fades out and becomes invisible.</p>
     <script>
         function myFunction(x){
             x.classList.toggle("change");
