@@ -1,0 +1,7 @@
+div {
+    width: 35px; /* speicifies width of the menu */
+    height: 5px; /* specifies height of the div element */
+    background-color: black; /* give bg color to the menu */
+    margin: 6px 0; /* give margin at the top */
+}
+/*  */
